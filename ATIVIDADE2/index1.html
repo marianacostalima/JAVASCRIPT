@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parquímetro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <div class="card">
+        <h3 class="text-center">Programa Parquímetro</h3>
+        <div class="text-center">
+            <p class="card-text">Valores: R$ 1,00 - 30 minutos, R$ 1.75 - 60 minutos e R$3,00 - 120 minutos.</p>
+        </div>
+        <form> 
+            <div class="text-center" id="img-topo">
+                <img src="https://www.imagenspng.com.br/wp-content/uploads/2022/04/flork-png-57-433x600.png" alt="IFPR" width="200px">
+            </div>
+            <div class="text-center">
+                <h5 class="card-title">Valor Inserido: </h5>
+                <input type="number" step="0.1" min="0" id="inValor" required>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-outline-dange">Verificar</button>
+            </div>
+            <div class="text-center">
+                <h4></h4>
+                <h6></h6>
+            </div>
+        </form>
+    </div>
+
+    <script src="triangulo1.js"></script>
+</body>
+</html>
